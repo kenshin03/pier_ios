@@ -64,36 +64,7 @@ UITabBarControllerDelegate
     [self refreshCNYUSDExchangeRates];
     [self startBroadcastBeacon];
     [self setUpBackgroundFetch];
-    
-    /*
-     for testing
-    PIRUser * testUser = [PIRUser createInContext:[NSManagedObjectContext defaultContext]];
-    testUser.firstName = @"Kenny";
-    testUser.lastName = @"Tang";
-    testUser.phoneNumber = @"123-412-4444";
-    testUser.ssn = @"11111111";
-    testUser.email = @"kenny.sm.tang@gmail.com";
-    
-    PIRUserServices * userService = [PIRUserServices sharedService];
-    [userService registerUser:testUser success:^{
         
-        NSLog(@"user success");
-        
-    } error:^(NSError *error) {
-        ELog(@"error : %@", error);
-    }];
-     */
-
-    //    double delayInSeconds = 4.0;
-//    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-//    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-//        [[NSNotificationCenter defaultCenter] addObserver:self
-//                                                 selector:@selector(processReceivedPaymentRequest:)
-//                                                     name:kPIRConstantsReceivedPaymentRequestNotification
-//                                                   object:nil];
-//        
-//    });
-    
     return YES;
 }
 
@@ -278,36 +249,6 @@ UITabBarControllerDelegate
 
 - (void)processRemoteNotification:(NSDictionary*)info
 {
-/*
-
- 1. update user
- curl -X POST -u "EqpXC8T7Qqqe4ffZSN37gA:C86kWM--QQWkDZwyrz6N1Q" \
- -H "Content-Type: application/json" \
- --data '{"device_tokens": ["737d6d49eca02132339bba486d3a8e49ed35ba600579b203c3fb7c971b556ab8"], "aps": {"content-available":1,"sound":"","requestType":"update_profile", "data":{"userID":"111111","status":1}}}' \
- https://go.urbanairship.com/api/push/
- 
- 
- ipod touch:
- e0f2b08b38b3f7f7b642c20d051178ea6d9db308
- 
- 2. send money request
- curl -X POST -u "EqpXC8T7Qqqe4ffZSN37gA:C86kWM--QQWkDZwyrz6N1Q" \
- -H "Content-Type: application/json" \
- --data '{"device_tokens": ["737d6d49eca02132339bba486d3a8e49ed35ba600579b203c3fb7c971b556ab8"], "aps": {"content-available":1,"sound":"","requestType":"pay_request", "data":{
- "requestType":1,
- "amount":100,
- "fromUserID":"1111111",
- "fromUserName":"Kenny Tang",
- "notes":"",
- "toUserID":"2222222",
- "toUserName":"Maggie Chan",
- "transactionID":"123456"
- }}}' \
- https://go.urbanairship.com/api/push/
- 
- 
- 
- */
     // to-do: define push notification types
     NSDictionary * apsInfo = info[@"aps"];
     NSString * requestType = apsInfo[@"requestType"];

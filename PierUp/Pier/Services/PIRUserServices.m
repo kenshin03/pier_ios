@@ -368,9 +368,6 @@ NSString *const kPIRTencentWeiboAppID = @"801469466";
                 
                 DLog(@"fetched facebook profile: %@", userInfo);
                 
-                /*
-                 {"id":"572733568","first_name":"Kenny","birthday":"11\/18\/1978","email":"kenny.sm.tang\u0040gmail.com","location":{"id":"111948542155151","name":"San Jose, California"},"last_name":"Tang","picture":{"data":{"url":"https:\/\/fbcdn-profile-a.akamaihd.net\/hprofile-ak-frc1\/369687_572733568_984805125_q.jpg","is_silhouette":false}}}
-                 */
                 success(userInfo);
             }];
         }else{
