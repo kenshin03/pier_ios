@@ -1,0 +1,1246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82EBBEB3347A4F8F9EACDF05 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC2C4AD767E435E867B71CB /* libPods.a */; };
+		8E04770418B3159C007A0612 /* PIRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E04770118B3159C007A0612 /* PIRTests.m */; };
+		8E04770518B3159C007A0612 /* PIRUserServicesSignInTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E04770318B3159C007A0612 /* PIRUserServicesSignInTests.m */; };
+		8E097113187634D7004EC930 /* AirshipConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E097112187634D7004EC930 /* AirshipConfig.plist */; };
+		8E09711718769011004EC930 /* PIRProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E09711618769011004EC930 /* PIRProfileViewController.m */; };
+		8E0CF1F7185C1DD70069111F /* PIRSendPaymentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CF1F6185C1DD70069111F /* PIRSendPaymentsViewController.m */; };
+		8E0CF1FB185C1DE40069111F /* PIRSendPaymentNearbyUsersCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CF1FA185C1DE40069111F /* PIRSendPaymentNearbyUsersCell.m */; };
+		8E0CF1FE185C242A0069111F /* PIRSendPaymentsAmountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CF1FD185C242A0069111F /* PIRSendPaymentsAmountsViewController.m */; };
+		8E0CF204185C36550069111F /* PIRSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CF203185C36550069111F /* PIRSeparator.m */; };
+		8E0CF208185C4B890069111F /* PIRAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CF207185C4B890069111F /* PIRAvatar.m */; };
+		8E0FAE781871CAE300B9C777 /* PIRReceivePaymentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0FAE751871CAE300B9C777 /* PIRReceivePaymentsViewController.m */; };
+		8E0FAE7C1871CBB300B9C777 /* PIRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0FAE7B1871CBB300B9C777 /* PIRLoginViewController.m */; };
+		8E0FAE801871E02C00B9C777 /* PIRTextFieldElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0FAE7F1871E02C00B9C777 /* PIRTextFieldElementView.m */; };
+		8E108268187532DA00C2BC57 /* PIRMenuTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E108267187532DA00C2BC57 /* PIRMenuTabBarController.m */; };
+		8E10C41F1888F2480042A7A3 /* PIRRegistrationPrefixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10C41E1888F2480042A7A3 /* PIRRegistrationPrefixView.m */; };
+		8E10C43A1889067F0042A7A3 /* NSDictionary+jsonString.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E10C4391889067F0042A7A3 /* NSDictionary+jsonString.m */; };
+		8E1FDC1F18D52D0E0021FD0A /* PIRVerifyAccountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1FDC1E18D52D0E0021FD0A /* PIRVerifyAccountView.m */; };
+		8E2355D6189FEFD300825E25 /* PIRLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2355D5189FEFD300825E25 /* PIRLoginView.m */; };
+		8E2355D9189FF44600825E25 /* PIRRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2355D8189FF44600825E25 /* PIRRegisterView.m */; };
+		8E23560218A0B7A500825E25 /* PIRSendPaymentsEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E23560118A0B7A500825E25 /* PIRSendPaymentsEmailViewController.m */; };
+		8E25630E185A1B6500A69C2A /* UIImage+PIRColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25630D185A1B6500A69C2A /* UIImage+PIRColor.m */; };
+		8E2A9F0D18D2CCD00014FB5B /* PIRTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A9F0C18D2CCD00014FB5B /* PIRTransaction.m */; };
+		8E2DF45B18CED18000C98E93 /* PIRCountrySelectElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DF45A18CED18000C98E93 /* PIRCountrySelectElementView.m */; };
+		8E358C051856853800948ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E358C041856853800948ED7 /* Foundation.framework */; };
+		8E358C071856853800948ED7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E358C061856853800948ED7 /* CoreGraphics.framework */; };
+		8E358C091856853800948ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E358C081856853800948ED7 /* UIKit.framework */; };
+		8E358C0F1856853800948ED7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E358C0D1856853800948ED7 /* InfoPlist.strings */; };
+		8E358C111856853800948ED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E358C101856853800948ED7 /* main.m */; };
+		8E358C151856853800948ED7 /* PIRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E358C141856853800948ED7 /* PIRAppDelegate.m */; };
+		8E358C171856853800948ED7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E358C161856853800948ED7 /* Images.xcassets */; };
+		8E358C1E1856853800948ED7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E358C1D1856853800948ED7 /* XCTest.framework */; };
+		8E358C1F1856853800948ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E358C041856853800948ED7 /* Foundation.framework */; };
+		8E358C201856853800948ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E358C081856853800948ED7 /* UIKit.framework */; };
+		8E358C281856853800948ED7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E358C261856853800948ED7 /* InfoPlist.strings */; };
+		8E358C341856857F00948ED7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E358C331856857F00948ED7 /* MapKit.framework */; };
+		8E358C40185686B700948ED7 /* PIRColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E358C3F185686B700948ED7 /* PIRColor.m */; };
+		8E358C441856898D00948ED7 /* PIRLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E358C431856898D00948ED7 /* PIRLogger.m */; };
+		8E358C4718568D6B00948ED7 /* PIRFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E358C4618568D6B00948ED7 /* PIRFont.m */; };
+		8E358C4A18568ED000948ED7 /* PIRPeerConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E358C4918568ED000948ED7 /* PIRPeerConnectivity.m */; };
+		8E3CDE181892C37B002B63C6 /* PIRCreditApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3CDE171892C37B002B63C6 /* PIRCreditApplicationViewController.m */; };
+		8E40504C18710516007DE639 /* PIRHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E40504B18710516007DE639 /* PIRHTTPSessionManager.m */; };
+		8E48504D18C313C0002B38B6 /* PIRAccessTokens.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E48504C18C313C0002B38B6 /* PIRAccessTokens.m */; };
+		8E48505018C313C1002B38B6 /* PIRPushNotificationTokens.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E48504F18C313C1002B38B6 /* PIRPushNotificationTokens.m */; };
+		8E48505618C313C1002B38B6 /* PIRCreditApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E48505518C313C1002B38B6 /* PIRCreditApplication.m */; };
+		8E48505C18C313C1002B38B6 /* PIRSocialAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E48505B18C313C1002B38B6 /* PIRSocialAccount.m */; };
+		8E48506218C313C1002B38B6 /* PIRDeviceTokens.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E48506118C313C1002B38B6 /* PIRDeviceTokens.m */; };
+		8E492436187D01AA00347F4A /* us_banks_routing_numbers.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 8E492435187D01AA00347F4A /* us_banks_routing_numbers.sqlite */; };
+		8E4D5959186283700084A2BB /* PIRSendPaymentsConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D5958186283700084A2BB /* PIRSendPaymentsConfirmationViewController.m */; };
+		8E4D595C1862B0770084A2BB /* PIRAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D595B1862B0770084A2BB /* PIRAlertView.m */; };
+		8E4D59601862C44E0084A2BB /* PIRAlertViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D595F1862C44E0084A2BB /* PIRAlertViewViewController.m */; };
+		8E4D596618637B010084A2BB /* PierModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D596418637B010084A2BB /* PierModel.xcdatamodeld */; };
+		8E4D59721863B39D0084A2BB /* PIRUserServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D59711863B39D0084A2BB /* PIRUserServices.m */; };
+		8E5E4F1D18776F330008192E /* PIRProfileInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4F1C18776F330008192E /* PIRProfileInfoViewController.m */; };
+		8E5E4F21187771840008192E /* PIRProfileInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4F20187771840008192E /* PIRProfileInfoTableViewCell.m */; };
+		8E5E4F2418778A6E0008192E /* PIRProfileBankAccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4F2318778A6E0008192E /* PIRProfileBankAccountsViewController.m */; };
+		8E5E4F331877D1E20008192E /* PIRProfileTransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4F321877D1E20008192E /* PIRProfileTransactionsViewController.m */; };
+		8E5E4F361877D4BC0008192E /* PIRProfileTransactionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4F351877D4BC0008192E /* PIRProfileTransactionCell.m */; };
+		8E5E4F391877D8C60008192E /* PIRFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4F381877D8C60008192E /* PIRFormatter.m */; };
+		8E5E4F3C1877E9600008192E /* PIRProfileAddBankAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4F3B1877E9600008192E /* PIRProfileAddBankAccountViewController.m */; };
+		8E5E4F3F187937D70008192E /* PIRProfilePasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4F3E187937D70008192E /* PIRProfilePasscodeViewController.m */; };
+		8E5E4F421879B88F0008192E /* PIRProfilePaymentOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4F411879B88F0008192E /* PIRProfilePaymentOptionsViewController.m */; };
+		8E5E4F451879BD4C0008192E /* PIRProfileDiscoveryOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4F441879BD4C0008192E /* PIRProfileDiscoveryOptionsViewController.m */; };
+		8E7DC2FB1872347900ADD848 /* PIRRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DC2FA1872347900ADD848 /* PIRRegisterViewController.m */; };
+		8E7DC2FE1873359000ADD848 /* PIRValidatorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DC2FD1873359000ADD848 /* PIRValidatorUtil.m */; };
+		8E8B087A189732400063A2D4 /* PIRHTTPSessionManager2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B0879189732400063A2D4 /* PIRHTTPSessionManager2.m */; };
+		8E8B087D189786EA0063A2D4 /* PIRDateFieldElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8B087C189786EA0063A2D4 /* PIRDateFieldElementView.m */; };
+		8E90CD8918C5AB3C00554022 /* PIRCreditApplicationResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90CD8818C5AB3C00554022 /* PIRCreditApplicationResultsViewController.m */; };
+		8E90CD8C18C5BE8D00554022 /* PIRProfileVerifyBankAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90CD8B18C5BE8D00554022 /* PIRProfileVerifyBankAccountViewController.m */; };
+		8E90CD9218C5CCDF00554022 /* PIRBankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90CD9118C5CCDF00554022 /* PIRBankAccount.m */; };
+		8EA65A2518D627A000DBC7CC /* PIRProfileVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA65A2418D627A000DBC7CC /* PIRProfileVerifyViewController.m */; };
+		8EACC5BB185E680B00847F6E /* MCPeerID+PIRUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EACC5BA185E680B00847F6E /* MCPeerID+PIRUser.m */; };
+		8EACC5BE185E69EC00847F6E /* PIRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EACC5BD185E69EC00847F6E /* PIRConstants.m */; };
+		8EAF6EF018BE39F700571579 /* PIRProfileUpdateBankAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF6EEF18BE39F700571579 /* PIRProfileUpdateBankAccountViewController.m */; };
+		8EB20C48187E0CF300A5135F /* PIRBeaconServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB20C47187E0CF300A5135F /* PIRBeaconServices.m */; };
+		8EC2B9E218C419D4002119F7 /* PIRUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC2B9E118C419D4002119F7 /* PIRUser.m */; };
+		8ECDCD5718813959006EA941 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECDCD5618813959006EA941 /* SystemConfiguration.framework */; };
+		8ECDCD591881395F006EA941 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECDCD581881395F006EA941 /* CoreTelephony.framework */; };
+		8ED1209C187A1B270033A070 /* PIRTransactionServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1209B187A1B270033A070 /* PIRTransactionServices.m */; };
+		8ED120B0187B6ADC0033A070 /* PIRSocialAccount+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED120AF187B6ADC0033A070 /* PIRSocialAccount+Extensions.m */; };
+		8ED17E91188B7BD800CBB8AF /* PIRProfilePierCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED17E90188B7BD800CBB8AF /* PIRProfilePierCreditsViewController.m */; };
+		8EF3941818A56370004664D5 /* PIRSwitchFieldElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF3941718A5636F004664D5 /* PIRSwitchFieldElementView.m */; };
+		8EF8306B187713090097D0D2 /* PIRUser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8306A187713090097D0D2 /* PIRUser+Extensions.m */; };
+		8EF8307A18771A2E0097D0D2 /* PIRBankAccount+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8307918771A2E0097D0D2 /* PIRBankAccount+Extensions.m */; };
+		8EF8308018771AC80097D0D2 /* PIRTransaction+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8307F18771AC80097D0D2 /* PIRTransaction+Extensions.m */; };
+		8EFB701E18A2970200ADA7B0 /* PIRWebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB701D18A2970200ADA7B0 /* PIRWebServices.m */; };
+		8EFDAAE818A9986000A3712C /* StyleSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EFDAAE718A9986000A3712C /* StyleSettings.plist */; };
+		F29F6F6C947545B084BA2672 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC2C4AD767E435E867B71CB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E358C211856853800948ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E358BF91856853800948ED7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E358C001856853800948ED7;
+			remoteInfo = Pier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FE1B6C689847D2995C63DE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		2BC2C4AD767E435E867B71CB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E04770018B3159C007A0612 /* PIRTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIRTests.h; sourceTree = "<group>"; };
+		8E04770118B3159C007A0612 /* PIRTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIRTests.m; sourceTree = "<group>"; };
+		8E04770318B3159C007A0612 /* PIRUserServicesSignInTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIRUserServicesSignInTests.m; sourceTree = "<group>"; };
+		8E04770618B315BE007A0612 /* PIRUserServices+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PIRUserServices+Private.h"; path = "Services/PIRUserServices+Private.h"; sourceTree = "<group>"; };
+		8E097112187634D7004EC930 /* AirshipConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AirshipConfig.plist; path = PLists/AirshipConfig.plist; sourceTree = "<group>"; };
+		8E09711518769011004EC930 /* PIRProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfileViewController.h; path = "Pier/View Controllers/Profile/PIRProfileViewController.h"; sourceTree = SOURCE_ROOT; };
+		8E09711618769011004EC930 /* PIRProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfileViewController.m; path = "Pier/View Controllers/Profile/PIRProfileViewController.m"; sourceTree = SOURCE_ROOT; };
+		8E0CF1F5185C1DD70069111F /* PIRSendPaymentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRSendPaymentsViewController.h; path = "View Controllers/Send/PIRSendPaymentsViewController.h"; sourceTree = "<group>"; };
+		8E0CF1F6185C1DD70069111F /* PIRSendPaymentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRSendPaymentsViewController.m; path = "View Controllers/Send/PIRSendPaymentsViewController.m"; sourceTree = "<group>"; };
+		8E0CF1F9185C1DE40069111F /* PIRSendPaymentNearbyUsersCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIRSendPaymentNearbyUsersCell.h; sourceTree = "<group>"; };
+		8E0CF1FA185C1DE40069111F /* PIRSendPaymentNearbyUsersCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIRSendPaymentNearbyUsersCell.m; sourceTree = "<group>"; };
+		8E0CF1FC185C242A0069111F /* PIRSendPaymentsAmountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRSendPaymentsAmountsViewController.h; path = "View Controllers/Send/PIRSendPaymentsAmountsViewController.h"; sourceTree = "<group>"; };
+		8E0CF1FD185C242A0069111F /* PIRSendPaymentsAmountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRSendPaymentsAmountsViewController.m; path = "View Controllers/Send/PIRSendPaymentsAmountsViewController.m"; sourceTree = "<group>"; };
+		8E0CF202185C36550069111F /* PIRSeparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRSeparator.h; path = Views/Shared/PIRSeparator.h; sourceTree = "<group>"; };
+		8E0CF203185C36550069111F /* PIRSeparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRSeparator.m; path = Views/Shared/PIRSeparator.m; sourceTree = "<group>"; };
+		8E0CF206185C4B890069111F /* PIRAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRAvatar.h; path = Views/Shared/PIRAvatar.h; sourceTree = "<group>"; };
+		8E0CF207185C4B890069111F /* PIRAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRAvatar.m; path = Views/Shared/PIRAvatar.m; sourceTree = "<group>"; };
+		8E0FAE741871CAE300B9C777 /* PIRReceivePaymentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRReceivePaymentsViewController.h; path = "View Controllers/Receive/PIRReceivePaymentsViewController.h"; sourceTree = "<group>"; };
+		8E0FAE751871CAE300B9C777 /* PIRReceivePaymentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRReceivePaymentsViewController.m; path = "View Controllers/Receive/PIRReceivePaymentsViewController.m"; sourceTree = "<group>"; };
+		8E0FAE7A1871CBB300B9C777 /* PIRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIRLoginViewController.h; sourceTree = "<group>"; };
+		8E0FAE7B1871CBB300B9C777 /* PIRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIRLoginViewController.m; sourceTree = "<group>"; };
+		8E0FAE7E1871E02C00B9C777 /* PIRTextFieldElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRTextFieldElementView.h; path = Views/Registration/PIRTextFieldElementView.h; sourceTree = "<group>"; };
+		8E0FAE7F1871E02C00B9C777 /* PIRTextFieldElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRTextFieldElementView.m; path = Views/Registration/PIRTextFieldElementView.m; sourceTree = "<group>"; };
+		8E108266187532DA00C2BC57 /* PIRMenuTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRMenuTabBarController.h; path = "View Controllers/Shared/PIRMenuTabBarController.h"; sourceTree = "<group>"; };
+		8E108267187532DA00C2BC57 /* PIRMenuTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRMenuTabBarController.m; path = "View Controllers/Shared/PIRMenuTabBarController.m"; sourceTree = "<group>"; };
+		8E10C41D1888F2480042A7A3 /* PIRRegistrationPrefixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRRegistrationPrefixView.h; path = Views/Registration/PIRRegistrationPrefixView.h; sourceTree = "<group>"; };
+		8E10C41E1888F2480042A7A3 /* PIRRegistrationPrefixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRRegistrationPrefixView.m; path = Views/Registration/PIRRegistrationPrefixView.m; sourceTree = "<group>"; };
+		8E10C4381889067F0042A7A3 /* NSDictionary+jsonString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+jsonString.h"; path = "Extensions/NSDictionary+jsonString.h"; sourceTree = "<group>"; };
+		8E10C4391889067F0042A7A3 /* NSDictionary+jsonString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+jsonString.m"; path = "Extensions/NSDictionary+jsonString.m"; sourceTree = "<group>"; };
+		8E1FDC1D18D52D0E0021FD0A /* PIRVerifyAccountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRVerifyAccountView.h; path = Views/Verify/PIRVerifyAccountView.h; sourceTree = "<group>"; };
+		8E1FDC1E18D52D0E0021FD0A /* PIRVerifyAccountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRVerifyAccountView.m; path = Views/Verify/PIRVerifyAccountView.m; sourceTree = "<group>"; };
+		8E2355D4189FEFD300825E25 /* PIRLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRLoginView.h; path = Views/Login/PIRLoginView.h; sourceTree = "<group>"; };
+		8E2355D5189FEFD300825E25 /* PIRLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRLoginView.m; path = Views/Login/PIRLoginView.m; sourceTree = "<group>"; };
+		8E2355D7189FF44600825E25 /* PIRRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRRegisterView.h; path = Views/Registration/PIRRegisterView.h; sourceTree = "<group>"; };
+		8E2355D8189FF44600825E25 /* PIRRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRRegisterView.m; path = Views/Registration/PIRRegisterView.m; sourceTree = "<group>"; };
+		8E23560018A0B7A500825E25 /* PIRSendPaymentsEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRSendPaymentsEmailViewController.h; path = "View Controllers/Send/PIRSendPaymentsEmailViewController.h"; sourceTree = "<group>"; };
+		8E23560118A0B7A500825E25 /* PIRSendPaymentsEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRSendPaymentsEmailViewController.m; path = "View Controllers/Send/PIRSendPaymentsEmailViewController.m"; sourceTree = "<group>"; };
+		8E25630C185A1B6500A69C2A /* UIImage+PIRColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+PIRColor.h"; path = "Extensions/UIImage+PIRColor.h"; sourceTree = "<group>"; };
+		8E25630D185A1B6500A69C2A /* UIImage+PIRColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+PIRColor.m"; path = "Extensions/UIImage+PIRColor.m"; sourceTree = "<group>"; };
+		8E2A9F0B18D2CCD00014FB5B /* PIRTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRTransaction.h; path = Models/Generated/PIRTransaction.h; sourceTree = "<group>"; };
+		8E2A9F0C18D2CCD00014FB5B /* PIRTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRTransaction.m; path = Models/Generated/PIRTransaction.m; sourceTree = "<group>"; };
+		8E2DF45918CED18000C98E93 /* PIRCountrySelectElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRCountrySelectElementView.h; path = Views/Shared/PIRCountrySelectElementView.h; sourceTree = "<group>"; };
+		8E2DF45A18CED18000C98E93 /* PIRCountrySelectElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRCountrySelectElementView.m; path = Views/Shared/PIRCountrySelectElementView.m; sourceTree = "<group>"; };
+		8E358C011856853800948ED7 /* Pier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E358C041856853800948ED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E358C061856853800948ED7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E358C081856853800948ED7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E358C0C1856853800948ED7 /* Pier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pier-Info.plist"; sourceTree = "<group>"; };
+		8E358C0E1856853800948ED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E358C101856853800948ED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E358C121856853800948ED7 /* Pier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pier-Prefix.pch"; sourceTree = "<group>"; };
+		8E358C131856853800948ED7 /* PIRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIRAppDelegate.h; sourceTree = "<group>"; };
+		8E358C141856853800948ED7 /* PIRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIRAppDelegate.m; sourceTree = "<group>"; };
+		8E358C161856853800948ED7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E358C1C1856853800948ED7 /* PierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E358C1D1856853800948ED7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8E358C251856853800948ED7 /* PierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PierTests-Info.plist"; sourceTree = "<group>"; };
+		8E358C271856853800948ED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E358C331856857F00948ED7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8E358C3E185686B700948ED7 /* PIRColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRColor.h; path = Shared/PIRColor.h; sourceTree = "<group>"; };
+		8E358C3F185686B700948ED7 /* PIRColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRColor.m; path = Shared/PIRColor.m; sourceTree = "<group>"; };
+		8E358C421856898D00948ED7 /* PIRLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRLogger.h; path = Utils/PIRLogger.h; sourceTree = "<group>"; };
+		8E358C431856898D00948ED7 /* PIRLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRLogger.m; path = Utils/PIRLogger.m; sourceTree = "<group>"; };
+		8E358C4518568D6B00948ED7 /* PIRFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRFont.h; path = Shared/PIRFont.h; sourceTree = "<group>"; };
+		8E358C4618568D6B00948ED7 /* PIRFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRFont.m; path = Shared/PIRFont.m; sourceTree = "<group>"; };
+		8E358C4818568ED000948ED7 /* PIRPeerConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRPeerConnectivity.h; path = Services/PIRPeerConnectivity.h; sourceTree = "<group>"; };
+		8E358C4918568ED000948ED7 /* PIRPeerConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRPeerConnectivity.m; path = Services/PIRPeerConnectivity.m; sourceTree = "<group>"; };
+		8E3CDE161892C37B002B63C6 /* PIRCreditApplicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRCreditApplicationViewController.h; path = "View Controllers/Credit/PIRCreditApplicationViewController.h"; sourceTree = "<group>"; };
+		8E3CDE171892C37B002B63C6 /* PIRCreditApplicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRCreditApplicationViewController.m; path = "View Controllers/Credit/PIRCreditApplicationViewController.m"; sourceTree = "<group>"; };
+		8E40504A18710516007DE639 /* PIRHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRHTTPSessionManager.h; path = Services/PIRHTTPSessionManager.h; sourceTree = "<group>"; };
+		8E40504B18710516007DE639 /* PIRHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRHTTPSessionManager.m; path = Services/PIRHTTPSessionManager.m; sourceTree = "<group>"; };
+		8E48504B18C313C0002B38B6 /* PIRAccessTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRAccessTokens.h; path = Models/Generated/PIRAccessTokens.h; sourceTree = "<group>"; };
+		8E48504C18C313C0002B38B6 /* PIRAccessTokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRAccessTokens.m; path = Models/Generated/PIRAccessTokens.m; sourceTree = "<group>"; };
+		8E48504E18C313C1002B38B6 /* PIRPushNotificationTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRPushNotificationTokens.h; path = Models/Generated/PIRPushNotificationTokens.h; sourceTree = "<group>"; };
+		8E48504F18C313C1002B38B6 /* PIRPushNotificationTokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRPushNotificationTokens.m; path = Models/Generated/PIRPushNotificationTokens.m; sourceTree = "<group>"; };
+		8E48505418C313C1002B38B6 /* PIRCreditApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRCreditApplication.h; path = Models/Generated/PIRCreditApplication.h; sourceTree = "<group>"; };
+		8E48505518C313C1002B38B6 /* PIRCreditApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRCreditApplication.m; path = Models/Generated/PIRCreditApplication.m; sourceTree = "<group>"; };
+		8E48505A18C313C1002B38B6 /* PIRSocialAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRSocialAccount.h; path = Models/Generated/PIRSocialAccount.h; sourceTree = "<group>"; };
+		8E48505B18C313C1002B38B6 /* PIRSocialAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRSocialAccount.m; path = Models/Generated/PIRSocialAccount.m; sourceTree = "<group>"; };
+		8E48506018C313C1002B38B6 /* PIRDeviceTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRDeviceTokens.h; path = Models/Generated/PIRDeviceTokens.h; sourceTree = "<group>"; };
+		8E48506118C313C1002B38B6 /* PIRDeviceTokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRDeviceTokens.m; path = Models/Generated/PIRDeviceTokens.m; sourceTree = "<group>"; };
+		8E492435187D01AA00347F4A /* us_banks_routing_numbers.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = us_banks_routing_numbers.sqlite; sourceTree = "<group>"; };
+		8E4D5957186283700084A2BB /* PIRSendPaymentsConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRSendPaymentsConfirmationViewController.h; path = "View Controllers/Send/PIRSendPaymentsConfirmationViewController.h"; sourceTree = "<group>"; };
+		8E4D5958186283700084A2BB /* PIRSendPaymentsConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRSendPaymentsConfirmationViewController.m; path = "View Controllers/Send/PIRSendPaymentsConfirmationViewController.m"; sourceTree = "<group>"; };
+		8E4D595A1862B0770084A2BB /* PIRAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRAlertView.h; path = Views/Shared/PIRAlertView.h; sourceTree = "<group>"; };
+		8E4D595B1862B0770084A2BB /* PIRAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRAlertView.m; path = Views/Shared/PIRAlertView.m; sourceTree = "<group>"; };
+		8E4D595E1862C44E0084A2BB /* PIRAlertViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRAlertViewViewController.h; path = "View Controllers/Shared/PIRAlertViewViewController.h"; sourceTree = "<group>"; };
+		8E4D595F1862C44E0084A2BB /* PIRAlertViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRAlertViewViewController.m; path = "View Controllers/Shared/PIRAlertViewViewController.m"; sourceTree = "<group>"; };
+		8E4D596518637B010084A2BB /* PierModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PierModel.xcdatamodel; sourceTree = "<group>"; };
+		8E4D59701863B39D0084A2BB /* PIRUserServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRUserServices.h; path = Services/PIRUserServices.h; sourceTree = "<group>"; };
+		8E4D59711863B39D0084A2BB /* PIRUserServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRUserServices.m; path = Services/PIRUserServices.m; sourceTree = "<group>"; };
+		8E5E4F1B18776F330008192E /* PIRProfileInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfileInfoViewController.h; path = "Pier/View Controllers/Profile/PIRProfileInfoViewController.h"; sourceTree = SOURCE_ROOT; };
+		8E5E4F1C18776F330008192E /* PIRProfileInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfileInfoViewController.m; path = "Pier/View Controllers/Profile/PIRProfileInfoViewController.m"; sourceTree = SOURCE_ROOT; };
+		8E5E4F1F187771840008192E /* PIRProfileInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfileInfoTableViewCell.h; path = Views/Profile/PIRProfileInfoTableViewCell.h; sourceTree = "<group>"; };
+		8E5E4F20187771840008192E /* PIRProfileInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfileInfoTableViewCell.m; path = Views/Profile/PIRProfileInfoTableViewCell.m; sourceTree = "<group>"; };
+		8E5E4F2218778A6E0008192E /* PIRProfileBankAccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfileBankAccountsViewController.h; path = "Pier/View Controllers/Profile/PIRProfileBankAccountsViewController.h"; sourceTree = SOURCE_ROOT; };
+		8E5E4F2318778A6E0008192E /* PIRProfileBankAccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfileBankAccountsViewController.m; path = "Pier/View Controllers/Profile/PIRProfileBankAccountsViewController.m"; sourceTree = SOURCE_ROOT; };
+		8E5E4F311877D1E20008192E /* PIRProfileTransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfileTransactionsViewController.h; path = "Pier/View Controllers/Profile/PIRProfileTransactionsViewController.h"; sourceTree = SOURCE_ROOT; };
+		8E5E4F321877D1E20008192E /* PIRProfileTransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfileTransactionsViewController.m; path = "Pier/View Controllers/Profile/PIRProfileTransactionsViewController.m"; sourceTree = SOURCE_ROOT; };
+		8E5E4F341877D4BC0008192E /* PIRProfileTransactionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfileTransactionCell.h; path = Views/Profile/PIRProfileTransactionCell.h; sourceTree = "<group>"; };
+		8E5E4F351877D4BC0008192E /* PIRProfileTransactionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfileTransactionCell.m; path = Views/Profile/PIRProfileTransactionCell.m; sourceTree = "<group>"; };
+		8E5E4F371877D8C60008192E /* PIRFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRFormatter.h; path = Utils/PIRFormatter.h; sourceTree = "<group>"; };
+		8E5E4F381877D8C60008192E /* PIRFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRFormatter.m; path = Utils/PIRFormatter.m; sourceTree = "<group>"; };
+		8E5E4F3A1877E9600008192E /* PIRProfileAddBankAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfileAddBankAccountViewController.h; path = "Pier/View Controllers/Profile/PIRProfileAddBankAccountViewController.h"; sourceTree = SOURCE_ROOT; };
+		8E5E4F3B1877E9600008192E /* PIRProfileAddBankAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfileAddBankAccountViewController.m; path = "Pier/View Controllers/Profile/PIRProfileAddBankAccountViewController.m"; sourceTree = SOURCE_ROOT; };
+		8E5E4F3D187937D70008192E /* PIRProfilePasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfilePasscodeViewController.h; path = "Pier/View Controllers/Profile/PIRProfilePasscodeViewController.h"; sourceTree = SOURCE_ROOT; };
+		8E5E4F3E187937D70008192E /* PIRProfilePasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfilePasscodeViewController.m; path = "Pier/View Controllers/Profile/PIRProfilePasscodeViewController.m"; sourceTree = SOURCE_ROOT; };
+		8E5E4F401879B88F0008192E /* PIRProfilePaymentOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfilePaymentOptionsViewController.h; path = "Pier/View Controllers/Profile/PIRProfilePaymentOptionsViewController.h"; sourceTree = SOURCE_ROOT; };
+		8E5E4F411879B88F0008192E /* PIRProfilePaymentOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfilePaymentOptionsViewController.m; path = "Pier/View Controllers/Profile/PIRProfilePaymentOptionsViewController.m"; sourceTree = SOURCE_ROOT; };
+		8E5E4F431879BD4C0008192E /* PIRProfileDiscoveryOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfileDiscoveryOptionsViewController.h; path = "Pier/View Controllers/Profile/PIRProfileDiscoveryOptionsViewController.h"; sourceTree = SOURCE_ROOT; };
+		8E5E4F441879BD4C0008192E /* PIRProfileDiscoveryOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfileDiscoveryOptionsViewController.m; path = "Pier/View Controllers/Profile/PIRProfileDiscoveryOptionsViewController.m"; sourceTree = SOURCE_ROOT; };
+		8E7DC2F91872347900ADD848 /* PIRRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRRegisterViewController.h; path = "View Controllers/Registration/PIRRegisterViewController.h"; sourceTree = "<group>"; };
+		8E7DC2FA1872347900ADD848 /* PIRRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRRegisterViewController.m; path = "View Controllers/Registration/PIRRegisterViewController.m"; sourceTree = "<group>"; };
+		8E7DC2FC1873359000ADD848 /* PIRValidatorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRValidatorUtil.h; path = Utils/PIRValidatorUtil.h; sourceTree = "<group>"; };
+		8E7DC2FD1873359000ADD848 /* PIRValidatorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRValidatorUtil.m; path = Utils/PIRValidatorUtil.m; sourceTree = "<group>"; };
+		8E8B0878189732400063A2D4 /* PIRHTTPSessionManager2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRHTTPSessionManager2.h; path = Services/PIRHTTPSessionManager2.h; sourceTree = "<group>"; };
+		8E8B0879189732400063A2D4 /* PIRHTTPSessionManager2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRHTTPSessionManager2.m; path = Services/PIRHTTPSessionManager2.m; sourceTree = "<group>"; };
+		8E8B087B189786EA0063A2D4 /* PIRDateFieldElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRDateFieldElementView.h; path = Views/Shared/PIRDateFieldElementView.h; sourceTree = "<group>"; };
+		8E8B087C189786EA0063A2D4 /* PIRDateFieldElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRDateFieldElementView.m; path = Views/Shared/PIRDateFieldElementView.m; sourceTree = "<group>"; };
+		8E90CD8718C5AB3C00554022 /* PIRCreditApplicationResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRCreditApplicationResultsViewController.h; path = "View Controllers/Credit/PIRCreditApplicationResultsViewController.h"; sourceTree = "<group>"; };
+		8E90CD8818C5AB3C00554022 /* PIRCreditApplicationResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRCreditApplicationResultsViewController.m; path = "View Controllers/Credit/PIRCreditApplicationResultsViewController.m"; sourceTree = "<group>"; };
+		8E90CD8A18C5BE8D00554022 /* PIRProfileVerifyBankAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfileVerifyBankAccountViewController.h; path = "Pier/View Controllers/Profile/PIRProfileVerifyBankAccountViewController.h"; sourceTree = SOURCE_ROOT; };
+		8E90CD8B18C5BE8D00554022 /* PIRProfileVerifyBankAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfileVerifyBankAccountViewController.m; path = "Pier/View Controllers/Profile/PIRProfileVerifyBankAccountViewController.m"; sourceTree = SOURCE_ROOT; };
+		8E90CD9018C5CCDF00554022 /* PIRBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRBankAccount.h; path = Models/Generated/PIRBankAccount.h; sourceTree = "<group>"; };
+		8E90CD9118C5CCDF00554022 /* PIRBankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRBankAccount.m; path = Models/Generated/PIRBankAccount.m; sourceTree = "<group>"; };
+		8EA65A2318D627A000DBC7CC /* PIRProfileVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfileVerifyViewController.h; path = "Pier/View Controllers/Profile/PIRProfileVerifyViewController.h"; sourceTree = SOURCE_ROOT; };
+		8EA65A2418D627A000DBC7CC /* PIRProfileVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfileVerifyViewController.m; path = "Pier/View Controllers/Profile/PIRProfileVerifyViewController.m"; sourceTree = SOURCE_ROOT; };
+		8EACC5B9185E680B00847F6E /* MCPeerID+PIRUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MCPeerID+PIRUser.h"; path = "Extensions/MCPeerID+PIRUser.h"; sourceTree = "<group>"; };
+		8EACC5BA185E680B00847F6E /* MCPeerID+PIRUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MCPeerID+PIRUser.m"; path = "Extensions/MCPeerID+PIRUser.m"; sourceTree = "<group>"; };
+		8EACC5BC185E69EC00847F6E /* PIRConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRConstants.h; path = Shared/PIRConstants.h; sourceTree = "<group>"; };
+		8EACC5BD185E69EC00847F6E /* PIRConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRConstants.m; path = Shared/PIRConstants.m; sourceTree = "<group>"; };
+		8EAF6EEE18BE39F700571579 /* PIRProfileUpdateBankAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfileUpdateBankAccountViewController.h; path = "Pier/View Controllers/Profile/PIRProfileUpdateBankAccountViewController.h"; sourceTree = SOURCE_ROOT; };
+		8EAF6EEF18BE39F700571579 /* PIRProfileUpdateBankAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfileUpdateBankAccountViewController.m; path = "Pier/View Controllers/Profile/PIRProfileUpdateBankAccountViewController.m"; sourceTree = SOURCE_ROOT; };
+		8EB20C46187E0CF300A5135F /* PIRBeaconServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRBeaconServices.h; path = Services/PIRBeaconServices.h; sourceTree = "<group>"; };
+		8EB20C47187E0CF300A5135F /* PIRBeaconServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRBeaconServices.m; path = Services/PIRBeaconServices.m; sourceTree = "<group>"; };
+		8EC2B9E018C419D4002119F7 /* PIRUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRUser.h; path = Models/Generated/PIRUser.h; sourceTree = "<group>"; };
+		8EC2B9E118C419D4002119F7 /* PIRUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRUser.m; path = Models/Generated/PIRUser.m; sourceTree = "<group>"; };
+		8ECDCD5618813959006EA941 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8ECDCD581881395F006EA941 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8ED1209A187A1B260033A070 /* PIRTransactionServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRTransactionServices.h; path = Services/PIRTransactionServices.h; sourceTree = "<group>"; };
+		8ED1209B187A1B270033A070 /* PIRTransactionServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRTransactionServices.m; path = Services/PIRTransactionServices.m; sourceTree = "<group>"; };
+		8ED120AE187B6ADC0033A070 /* PIRSocialAccount+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PIRSocialAccount+Extensions.h"; path = "Models/Extensions/PIRSocialAccount+Extensions.h"; sourceTree = "<group>"; };
+		8ED120AF187B6ADC0033A070 /* PIRSocialAccount+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PIRSocialAccount+Extensions.m"; path = "Models/Extensions/PIRSocialAccount+Extensions.m"; sourceTree = "<group>"; };
+		8ED17E8F188B7BD800CBB8AF /* PIRProfilePierCreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRProfilePierCreditsViewController.h; path = "Pier/View Controllers/Profile/PIRProfilePierCreditsViewController.h"; sourceTree = SOURCE_ROOT; };
+		8ED17E90188B7BD800CBB8AF /* PIRProfilePierCreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRProfilePierCreditsViewController.m; path = "Pier/View Controllers/Profile/PIRProfilePierCreditsViewController.m"; sourceTree = SOURCE_ROOT; };
+		8EF3941618A5636F004664D5 /* PIRSwitchFieldElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRSwitchFieldElementView.h; path = Views/Shared/PIRSwitchFieldElementView.h; sourceTree = "<group>"; };
+		8EF3941718A5636F004664D5 /* PIRSwitchFieldElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRSwitchFieldElementView.m; path = Views/Shared/PIRSwitchFieldElementView.m; sourceTree = "<group>"; };
+		8EF83069187713090097D0D2 /* PIRUser+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PIRUser+Extensions.h"; path = "Models/Extensions/PIRUser+Extensions.h"; sourceTree = "<group>"; };
+		8EF8306A187713090097D0D2 /* PIRUser+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PIRUser+Extensions.m"; path = "Models/Extensions/PIRUser+Extensions.m"; sourceTree = "<group>"; };
+		8EF8307818771A2E0097D0D2 /* PIRBankAccount+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PIRBankAccount+Extensions.h"; path = "Models/Extensions/PIRBankAccount+Extensions.h"; sourceTree = "<group>"; };
+		8EF8307918771A2E0097D0D2 /* PIRBankAccount+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PIRBankAccount+Extensions.m"; path = "Models/Extensions/PIRBankAccount+Extensions.m"; sourceTree = "<group>"; };
+		8EF8307E18771AC80097D0D2 /* PIRTransaction+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PIRTransaction+Extensions.h"; path = "Models/Extensions/PIRTransaction+Extensions.h"; sourceTree = "<group>"; };
+		8EF8307F18771AC80097D0D2 /* PIRTransaction+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PIRTransaction+Extensions.m"; path = "Models/Extensions/PIRTransaction+Extensions.m"; sourceTree = "<group>"; };
+		8EFB701C18A2970200ADA7B0 /* PIRWebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PIRWebServices.h; path = Services/PIRWebServices.h; sourceTree = "<group>"; };
+		8EFB701D18A2970200ADA7B0 /* PIRWebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PIRWebServices.m; path = Services/PIRWebServices.m; sourceTree = "<group>"; };
+		8EFDAAE718A9986000A3712C /* StyleSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StyleSettings.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E358BFE1856853800948ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECDCD591881395F006EA941 /* CoreTelephony.framework in Frameworks */,
+				8ECDCD5718813959006EA941 /* SystemConfiguration.framework in Frameworks */,
+				8E358C071856853800948ED7 /* CoreGraphics.framework in Frameworks */,
+				8E358C091856853800948ED7 /* UIKit.framework in Frameworks */,
+				8E358C341856857F00948ED7 /* MapKit.framework in Frameworks */,
+				8E358C051856853800948ED7 /* Foundation.framework in Frameworks */,
+				F29F6F6C947545B084BA2672 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E358C191856853800948ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E358C1E1856853800948ED7 /* XCTest.framework in Frameworks */,
+				8E358C201856853800948ED7 /* UIKit.framework in Frameworks */,
+				8E358C1F1856853800948ED7 /* Foundation.framework in Frameworks */,
+				82EBBEB3347A4F8F9EACDF05 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E04770218B3159C007A0612 /* UserServices */ = {
+			isa = PBXGroup;
+			children = (
+				8E04770318B3159C007A0612 /* PIRUserServicesSignInTests.m */,
+			);
+			path = UserServices;
+			sourceTree = "<group>";
+		};
+		8E09711418768FC6004EC930 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8E09711518769011004EC930 /* PIRProfileViewController.h */,
+				8E09711618769011004EC930 /* PIRProfileViewController.m */,
+				8E5E4F1B18776F330008192E /* PIRProfileInfoViewController.h */,
+				8E5E4F1C18776F330008192E /* PIRProfileInfoViewController.m */,
+				8E5E4F3D187937D70008192E /* PIRProfilePasscodeViewController.h */,
+				8E5E4F3E187937D70008192E /* PIRProfilePasscodeViewController.m */,
+				8EA65A2318D627A000DBC7CC /* PIRProfileVerifyViewController.h */,
+				8EA65A2418D627A000DBC7CC /* PIRProfileVerifyViewController.m */,
+				8E5E4F3A1877E9600008192E /* PIRProfileAddBankAccountViewController.h */,
+				8E5E4F3B1877E9600008192E /* PIRProfileAddBankAccountViewController.m */,
+				8E5E4F2218778A6E0008192E /* PIRProfileBankAccountsViewController.h */,
+				8E5E4F2318778A6E0008192E /* PIRProfileBankAccountsViewController.m */,
+				8EAF6EEE18BE39F700571579 /* PIRProfileUpdateBankAccountViewController.h */,
+				8EAF6EEF18BE39F700571579 /* PIRProfileUpdateBankAccountViewController.m */,
+				8E90CD8A18C5BE8D00554022 /* PIRProfileVerifyBankAccountViewController.h */,
+				8E90CD8B18C5BE8D00554022 /* PIRProfileVerifyBankAccountViewController.m */,
+				8E5E4F311877D1E20008192E /* PIRProfileTransactionsViewController.h */,
+				8E5E4F321877D1E20008192E /* PIRProfileTransactionsViewController.m */,
+				8ED17E8F188B7BD800CBB8AF /* PIRProfilePierCreditsViewController.h */,
+				8ED17E90188B7BD800CBB8AF /* PIRProfilePierCreditsViewController.m */,
+				8E5E4F401879B88F0008192E /* PIRProfilePaymentOptionsViewController.h */,
+				8E5E4F411879B88F0008192E /* PIRProfilePaymentOptionsViewController.m */,
+				8E5E4F431879BD4C0008192E /* PIRProfileDiscoveryOptionsViewController.h */,
+				8E5E4F441879BD4C0008192E /* PIRProfileDiscoveryOptionsViewController.m */,
+			);
+			name = Profile;
+			path = "View Controllers/Login";
+			sourceTree = "<group>";
+		};
+		8E0CF1F8185C1DE40069111F /* Send Payments */ = {
+			isa = PBXGroup;
+			children = (
+				8E0CF1F9185C1DE40069111F /* PIRSendPaymentNearbyUsersCell.h */,
+				8E0CF1FA185C1DE40069111F /* PIRSendPaymentNearbyUsersCell.m */,
+			);
+			name = "Send Payments";
+			path = Views/Send;
+			sourceTree = "<group>";
+		};
+		8E0CF205185C365B0069111F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8E8B087B189786EA0063A2D4 /* PIRDateFieldElementView.h */,
+				8E8B087C189786EA0063A2D4 /* PIRDateFieldElementView.m */,
+				8E0CF202185C36550069111F /* PIRSeparator.h */,
+				8E0CF203185C36550069111F /* PIRSeparator.m */,
+				8E0CF206185C4B890069111F /* PIRAvatar.h */,
+				8E0CF207185C4B890069111F /* PIRAvatar.m */,
+				8E4D595A1862B0770084A2BB /* PIRAlertView.h */,
+				8E4D595B1862B0770084A2BB /* PIRAlertView.m */,
+				8EF3941618A5636F004664D5 /* PIRSwitchFieldElementView.h */,
+				8EF3941718A5636F004664D5 /* PIRSwitchFieldElementView.m */,
+				8E2DF45918CED18000C98E93 /* PIRCountrySelectElementView.h */,
+				8E2DF45A18CED18000C98E93 /* PIRCountrySelectElementView.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		8E0FAE791871CBB300B9C777 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8E0FAE7A1871CBB300B9C777 /* PIRLoginViewController.h */,
+				8E0FAE7B1871CBB300B9C777 /* PIRLoginViewController.m */,
+			);
+			name = Login;
+			path = "View Controllers/Login";
+			sourceTree = "<group>";
+		};
+		8E0FAE7D1871DFFB00B9C777 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				8E2355D7189FF44600825E25 /* PIRRegisterView.h */,
+				8E2355D8189FF44600825E25 /* PIRRegisterView.m */,
+				8E0FAE7E1871E02C00B9C777 /* PIRTextFieldElementView.h */,
+				8E0FAE7F1871E02C00B9C777 /* PIRTextFieldElementView.m */,
+				8E10C41D1888F2480042A7A3 /* PIRRegistrationPrefixView.h */,
+				8E10C41E1888F2480042A7A3 /* PIRRegistrationPrefixView.m */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		8E1FDC1C18D52CE60021FD0A /* Verify */ = {
+			isa = PBXGroup;
+			children = (
+				8E1FDC1D18D52D0E0021FD0A /* PIRVerifyAccountView.h */,
+				8E1FDC1E18D52D0E0021FD0A /* PIRVerifyAccountView.m */,
+			);
+			name = Verify;
+			sourceTree = "<group>";
+		};
+		8E2355D3189FEFB600825E25 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8E2355D4189FEFD300825E25 /* PIRLoginView.h */,
+				8E2355D5189FEFD300825E25 /* PIRLoginView.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		8E358BF81856853800948ED7 = {
+			isa = PBXGroup;
+			children = (
+				8EFDAAE718A9986000A3712C /* StyleSettings.plist */,
+				8E358C0A1856853800948ED7 /* Pier */,
+				8E358C231856853800948ED7 /* PierTests */,
+				8E358C031856853800948ED7 /* Frameworks */,
+				8E358C021856853800948ED7 /* Products */,
+				07FE1B6C689847D2995C63DE /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		8E358C021856853800948ED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E358C011856853800948ED7 /* Pier.app */,
+				8E358C1C1856853800948ED7 /* PierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E358C031856853800948ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ECDCD581881395F006EA941 /* CoreTelephony.framework */,
+				8ECDCD5618813959006EA941 /* SystemConfiguration.framework */,
+				8E358C331856857F00948ED7 /* MapKit.framework */,
+				8E358C041856853800948ED7 /* Foundation.framework */,
+				8E358C061856853800948ED7 /* CoreGraphics.framework */,
+				8E358C081856853800948ED7 /* UIKit.framework */,
+				8E358C1D1856853800948ED7 /* XCTest.framework */,
+				2BC2C4AD767E435E867B71CB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E358C0A1856853800948ED7 /* Pier */ = {
+			isa = PBXGroup;
+			children = (
+				8E358C411856893A00948ED7 /* Utils */,
+				8E358C3D1856862300948ED7 /* Resources */,
+				8E358C3B1856860900948ED7 /* Extensions */,
+				8E358C3A185685FA00948ED7 /* Services */,
+				8E358C39185685EF00948ED7 /* Views */,
+				8E358C38185685E900948ED7 /* View Controllers */,
+				8E358C37185685DE00948ED7 /* Extensions */,
+				8E358C36185685C000948ED7 /* Models */,
+				8E358C35185685B100948ED7 /* Shared */,
+				8E358C0B1856853800948ED7 /* Supporting Files */,
+			);
+			path = Pier;
+			sourceTree = "<group>";
+		};
+		8E358C0B1856853800948ED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E358C0C1856853800948ED7 /* Pier-Info.plist */,
+				8E097112187634D7004EC930 /* AirshipConfig.plist */,
+				8E358C0D1856853800948ED7 /* InfoPlist.strings */,
+				8E358C101856853800948ED7 /* main.m */,
+				8E358C121856853800948ED7 /* Pier-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E358C231856853800948ED7 /* PierTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E04770018B3159C007A0612 /* PIRTests.h */,
+				8E04770118B3159C007A0612 /* PIRTests.m */,
+				8E04770218B3159C007A0612 /* UserServices */,
+				8E358C241856853800948ED7 /* Supporting Files */,
+			);
+			path = PierTests;
+			sourceTree = "<group>";
+		};
+		8E358C241856853800948ED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E358C251856853800948ED7 /* PierTests-Info.plist */,
+				8E358C261856853800948ED7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E358C35185685B100948ED7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8EACC5BC185E69EC00847F6E /* PIRConstants.h */,
+				8EACC5BD185E69EC00847F6E /* PIRConstants.m */,
+				8E358C131856853800948ED7 /* PIRAppDelegate.h */,
+				8E358C141856853800948ED7 /* PIRAppDelegate.m */,
+				8E358C3E185686B700948ED7 /* PIRColor.h */,
+				8E358C3F185686B700948ED7 /* PIRColor.m */,
+				8E358C4518568D6B00948ED7 /* PIRFont.h */,
+				8E358C4618568D6B00948ED7 /* PIRFont.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		8E358C36185685C000948ED7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E4D596B1863A61B0084A2BB /* Extensions */,
+				8E4D59671863A5EE0084A2BB /* Generated */,
+				8E4D596418637B010084A2BB /* PierModel.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8E358C37185685DE00948ED7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8E358C38185685E900948ED7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E0FAE791871CBB300B9C777 /* Login */,
+				8E09711418768FC6004EC930 /* Profile */,
+				8E3CDE151892C342002B63C6 /* Credit */,
+				8E4D596F1863AA590084A2BB /* Registration */,
+				8E4D595D1862C42E0084A2BB /* Shared */,
+				8E85C0D4185BC8F9005EAB78 /* Receive Payments */,
+				8E85C0D5185BC904005EAB78 /* Send Payments */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8E358C39185685EF00948ED7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E1FDC1C18D52CE60021FD0A /* Verify */,
+				8E2355D3189FEFB600825E25 /* Login */,
+				8E5E4F1E187771470008192E /* Profile */,
+				8E0FAE7D1871DFFB00B9C777 /* Registration */,
+				8E0CF1F8185C1DE40069111F /* Send Payments */,
+				8E358C3C1856861500948ED7 /* Extensions */,
+				8E0CF205185C365B0069111F /* Shared */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8E358C3A185685FA00948ED7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8E358C4818568ED000948ED7 /* PIRPeerConnectivity.h */,
+				8E358C4918568ED000948ED7 /* PIRPeerConnectivity.m */,
+				8E4D59701863B39D0084A2BB /* PIRUserServices.h */,
+				8E04770618B315BE007A0612 /* PIRUserServices+Private.h */,
+				8E4D59711863B39D0084A2BB /* PIRUserServices.m */,
+				8E40504A18710516007DE639 /* PIRHTTPSessionManager.h */,
+				8E40504B18710516007DE639 /* PIRHTTPSessionManager.m */,
+				8ED1209A187A1B260033A070 /* PIRTransactionServices.h */,
+				8ED1209B187A1B270033A070 /* PIRTransactionServices.m */,
+				8E8B0878189732400063A2D4 /* PIRHTTPSessionManager2.h */,
+				8E8B0879189732400063A2D4 /* PIRHTTPSessionManager2.m */,
+				8EB20C46187E0CF300A5135F /* PIRBeaconServices.h */,
+				8EB20C47187E0CF300A5135F /* PIRBeaconServices.m */,
+				8EFB701C18A2970200ADA7B0 /* PIRWebServices.h */,
+				8EFB701D18A2970200ADA7B0 /* PIRWebServices.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8E358C3B1856860900948ED7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E25630C185A1B6500A69C2A /* UIImage+PIRColor.h */,
+				8E25630D185A1B6500A69C2A /* UIImage+PIRColor.m */,
+				8EACC5B9185E680B00847F6E /* MCPeerID+PIRUser.h */,
+				8EACC5BA185E680B00847F6E /* MCPeerID+PIRUser.m */,
+				8E10C4381889067F0042A7A3 /* NSDictionary+jsonString.h */,
+				8E10C4391889067F0042A7A3 /* NSDictionary+jsonString.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8E358C3C1856861500948ED7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8E358C3D1856862300948ED7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E492434187D01AA00347F4A /* Data */,
+				8E358C161856853800948ED7 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E358C411856893A00948ED7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E358C421856898D00948ED7 /* PIRLogger.h */,
+				8E358C431856898D00948ED7 /* PIRLogger.m */,
+				8E7DC2FC1873359000ADD848 /* PIRValidatorUtil.h */,
+				8E7DC2FD1873359000ADD848 /* PIRValidatorUtil.m */,
+				8E5E4F371877D8C60008192E /* PIRFormatter.h */,
+				8E5E4F381877D8C60008192E /* PIRFormatter.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8E3CDE151892C342002B63C6 /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				8E3CDE161892C37B002B63C6 /* PIRCreditApplicationViewController.h */,
+				8E3CDE171892C37B002B63C6 /* PIRCreditApplicationViewController.m */,
+				8E90CD8718C5AB3C00554022 /* PIRCreditApplicationResultsViewController.h */,
+				8E90CD8818C5AB3C00554022 /* PIRCreditApplicationResultsViewController.m */,
+			);
+			name = Credit;
+			sourceTree = "<group>";
+		};
+		8E492434187D01AA00347F4A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8E492435187D01AA00347F4A /* us_banks_routing_numbers.sqlite */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8E4D595D1862C42E0084A2BB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8E4D595E1862C44E0084A2BB /* PIRAlertViewViewController.h */,
+				8E4D595F1862C44E0084A2BB /* PIRAlertViewViewController.m */,
+				8E108266187532DA00C2BC57 /* PIRMenuTabBarController.h */,
+				8E108267187532DA00C2BC57 /* PIRMenuTabBarController.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		8E4D59671863A5EE0084A2BB /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				8E2A9F0B18D2CCD00014FB5B /* PIRTransaction.h */,
+				8E2A9F0C18D2CCD00014FB5B /* PIRTransaction.m */,
+				8E90CD9018C5CCDF00554022 /* PIRBankAccount.h */,
+				8E90CD9118C5CCDF00554022 /* PIRBankAccount.m */,
+				8EC2B9E018C419D4002119F7 /* PIRUser.h */,
+				8EC2B9E118C419D4002119F7 /* PIRUser.m */,
+				8E48506018C313C1002B38B6 /* PIRDeviceTokens.h */,
+				8E48506118C313C1002B38B6 /* PIRDeviceTokens.m */,
+				8E48505A18C313C1002B38B6 /* PIRSocialAccount.h */,
+				8E48505B18C313C1002B38B6 /* PIRSocialAccount.m */,
+				8E48505418C313C1002B38B6 /* PIRCreditApplication.h */,
+				8E48505518C313C1002B38B6 /* PIRCreditApplication.m */,
+				8E48504E18C313C1002B38B6 /* PIRPushNotificationTokens.h */,
+				8E48504F18C313C1002B38B6 /* PIRPushNotificationTokens.m */,
+				8E48504B18C313C0002B38B6 /* PIRAccessTokens.h */,
+				8E48504C18C313C0002B38B6 /* PIRAccessTokens.m */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		8E4D596B1863A61B0084A2BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8EF83069187713090097D0D2 /* PIRUser+Extensions.h */,
+				8EF8306A187713090097D0D2 /* PIRUser+Extensions.m */,
+				8EF8307818771A2E0097D0D2 /* PIRBankAccount+Extensions.h */,
+				8EF8307918771A2E0097D0D2 /* PIRBankAccount+Extensions.m */,
+				8EF8307E18771AC80097D0D2 /* PIRTransaction+Extensions.h */,
+				8EF8307F18771AC80097D0D2 /* PIRTransaction+Extensions.m */,
+				8ED120AE187B6ADC0033A070 /* PIRSocialAccount+Extensions.h */,
+				8ED120AF187B6ADC0033A070 /* PIRSocialAccount+Extensions.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8E4D596F1863AA590084A2BB /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				8E7DC2F91872347900ADD848 /* PIRRegisterViewController.h */,
+				8E7DC2FA1872347900ADD848 /* PIRRegisterViewController.m */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		8E5E4F1E187771470008192E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8E5E4F1F187771840008192E /* PIRProfileInfoTableViewCell.h */,
+				8E5E4F20187771840008192E /* PIRProfileInfoTableViewCell.m */,
+				8E5E4F341877D4BC0008192E /* PIRProfileTransactionCell.h */,
+				8E5E4F351877D4BC0008192E /* PIRProfileTransactionCell.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		8E85C0D4185BC8F9005EAB78 /* Receive Payments */ = {
+			isa = PBXGroup;
+			children = (
+				8E0FAE741871CAE300B9C777 /* PIRReceivePaymentsViewController.h */,
+				8E0FAE751871CAE300B9C777 /* PIRReceivePaymentsViewController.m */,
+			);
+			name = "Receive Payments";
+			sourceTree = "<group>";
+		};
+		8E85C0D5185BC904005EAB78 /* Send Payments */ = {
+			isa = PBXGroup;
+			children = (
+				8E0CF1F5185C1DD70069111F /* PIRSendPaymentsViewController.h */,
+				8E0CF1F6185C1DD70069111F /* PIRSendPaymentsViewController.m */,
+				8E0CF1FC185C242A0069111F /* PIRSendPaymentsAmountsViewController.h */,
+				8E0CF1FD185C242A0069111F /* PIRSendPaymentsAmountsViewController.m */,
+				8E4D5957186283700084A2BB /* PIRSendPaymentsConfirmationViewController.h */,
+				8E4D5958186283700084A2BB /* PIRSendPaymentsConfirmationViewController.m */,
+				8E23560018A0B7A500825E25 /* PIRSendPaymentsEmailViewController.h */,
+				8E23560118A0B7A500825E25 /* PIRSendPaymentsEmailViewController.m */,
+			);
+			name = "Send Payments";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E358C001856853800948ED7 /* Pier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E358C2D1856853800948ED7 /* Build configuration list for PBXNativeTarget "Pier" */;
+			buildPhases = (
+				B55E3D51EB2B4C60A55DECD8 /* Check Pods Manifest.lock */,
+				8E358BFD1856853800948ED7 /* Sources */,
+				8E358BFE1856853800948ED7 /* Frameworks */,
+				8E358BFF1856853800948ED7 /* Resources */,
+				FFA4E893A76142DB95FA3A66 /* Copy Pods Resources */,
+				8E9B0E6A189C6783006B5371 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pier;
+			productName = Pier;
+			productReference = 8E358C011856853800948ED7 /* Pier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E358C1B1856853800948ED7 /* PierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E358C301856853800948ED7 /* Build configuration list for PBXNativeTarget "PierTests" */;
+			buildPhases = (
+				34D75BCAD0B54E0EB9C45758 /* Check Pods Manifest.lock */,
+				8E358C181856853800948ED7 /* Sources */,
+				8E358C191856853800948ED7 /* Frameworks */,
+				8E358C1A1856853800948ED7 /* Resources */,
+				B2FEC8BC7AD242CBB1AA5EDC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E358C221856853800948ED7 /* PBXTargetDependency */,
+			);
+			name = PierTests;
+			productName = PierTests;
+			productReference = 8E358C1C1856853800948ED7 /* PierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E358BF91856853800948ED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PIR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = PIER;
+				TargetAttributes = {
+					8E358C001856853800948ED7 = {
+						DevelopmentTeam = Y54H2D8RT6;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					8E358C1B1856853800948ED7 = {
+						TestTargetID = 8E358C001856853800948ED7;
+					};
+				};
+			};
+			buildConfigurationList = 8E358BFC1856853800948ED7 /* Build configuration list for PBXProject "Pier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E358BF81856853800948ED7;
+			productRefGroup = 8E358C021856853800948ED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E358C001856853800948ED7 /* Pier */,
+				8E358C1B1856853800948ED7 /* PierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E358BFF1856853800948ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E097113187634D7004EC930 /* AirshipConfig.plist in Resources */,
+				8EFDAAE818A9986000A3712C /* StyleSettings.plist in Resources */,
+				8E358C0F1856853800948ED7 /* InfoPlist.strings in Resources */,
+				8E358C171856853800948ED7 /* Images.xcassets in Resources */,
+				8E492436187D01AA00347F4A /* us_banks_routing_numbers.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E358C1A1856853800948ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E358C281856853800948ED7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34D75BCAD0B54E0EB9C45758 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E9B0E6A189C6783006B5371 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"to-do|TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+		B2FEC8BC7AD242CBB1AA5EDC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B55E3D51EB2B4C60A55DECD8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA4E893A76142DB95FA3A66 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E358BFD1856853800948ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5E4F421879B88F0008192E /* PIRProfilePaymentOptionsViewController.m in Sources */,
+				8E4D595C1862B0770084A2BB /* PIRAlertView.m in Sources */,
+				8E0CF1FB185C1DE40069111F /* PIRSendPaymentNearbyUsersCell.m in Sources */,
+				8E90CD9218C5CCDF00554022 /* PIRBankAccount.m in Sources */,
+				8E2A9F0D18D2CCD00014FB5B /* PIRTransaction.m in Sources */,
+				8E48505C18C313C1002B38B6 /* PIRSocialAccount.m in Sources */,
+				8E5E4F21187771840008192E /* PIRProfileInfoTableViewCell.m in Sources */,
+				8E4D59601862C44E0084A2BB /* PIRAlertViewViewController.m in Sources */,
+				8E108268187532DA00C2BC57 /* PIRMenuTabBarController.m in Sources */,
+				8E40504C18710516007DE639 /* PIRHTTPSessionManager.m in Sources */,
+				8E90CD8C18C5BE8D00554022 /* PIRProfileVerifyBankAccountViewController.m in Sources */,
+				8E358C40185686B700948ED7 /* PIRColor.m in Sources */,
+				8E5E4F361877D4BC0008192E /* PIRProfileTransactionCell.m in Sources */,
+				8EAF6EF018BE39F700571579 /* PIRProfileUpdateBankAccountViewController.m in Sources */,
+				8E358C441856898D00948ED7 /* PIRLogger.m in Sources */,
+				8EF8308018771AC80097D0D2 /* PIRTransaction+Extensions.m in Sources */,
+				8E48505018C313C1002B38B6 /* PIRPushNotificationTokens.m in Sources */,
+				8E0CF208185C4B890069111F /* PIRAvatar.m in Sources */,
+				8E10C43A1889067F0042A7A3 /* NSDictionary+jsonString.m in Sources */,
+				8E0CF204185C36550069111F /* PIRSeparator.m in Sources */,
+				8E358C151856853800948ED7 /* PIRAppDelegate.m in Sources */,
+				8E10C41F1888F2480042A7A3 /* PIRRegistrationPrefixView.m in Sources */,
+				8E5E4F3C1877E9600008192E /* PIRProfileAddBankAccountViewController.m in Sources */,
+				8E5E4F2418778A6E0008192E /* PIRProfileBankAccountsViewController.m in Sources */,
+				8E358C4718568D6B00948ED7 /* PIRFont.m in Sources */,
+				8E48504D18C313C0002B38B6 /* PIRAccessTokens.m in Sources */,
+				8E0FAE801871E02C00B9C777 /* PIRTextFieldElementView.m in Sources */,
+				8ED1209C187A1B270033A070 /* PIRTransactionServices.m in Sources */,
+				8E5E4F451879BD4C0008192E /* PIRProfileDiscoveryOptionsViewController.m in Sources */,
+				8E0FAE781871CAE300B9C777 /* PIRReceivePaymentsViewController.m in Sources */,
+				8EC2B9E218C419D4002119F7 /* PIRUser.m in Sources */,
+				8E5E4F3F187937D70008192E /* PIRProfilePasscodeViewController.m in Sources */,
+				8E25630E185A1B6500A69C2A /* UIImage+PIRColor.m in Sources */,
+				8E8B087D189786EA0063A2D4 /* PIRDateFieldElementView.m in Sources */,
+				8E23560218A0B7A500825E25 /* PIRSendPaymentsEmailViewController.m in Sources */,
+				8E1FDC1F18D52D0E0021FD0A /* PIRVerifyAccountView.m in Sources */,
+				8E5E4F391877D8C60008192E /* PIRFormatter.m in Sources */,
+				8E5E4F331877D1E20008192E /* PIRProfileTransactionsViewController.m in Sources */,
+				8E48506218C313C1002B38B6 /* PIRDeviceTokens.m in Sources */,
+				8E7DC2FB1872347900ADD848 /* PIRRegisterViewController.m in Sources */,
+				8E2DF45B18CED18000C98E93 /* PIRCountrySelectElementView.m in Sources */,
+				8E358C4A18568ED000948ED7 /* PIRPeerConnectivity.m in Sources */,
+				8EA65A2518D627A000DBC7CC /* PIRProfileVerifyViewController.m in Sources */,
+				8EACC5BE185E69EC00847F6E /* PIRConstants.m in Sources */,
+				8ED17E91188B7BD800CBB8AF /* PIRProfilePierCreditsViewController.m in Sources */,
+				8E4D596618637B010084A2BB /* PierModel.xcdatamodeld in Sources */,
+				8E0FAE7C1871CBB300B9C777 /* PIRLoginViewController.m in Sources */,
+				8EF8306B187713090097D0D2 /* PIRUser+Extensions.m in Sources */,
+				8E4D5959186283700084A2BB /* PIRSendPaymentsConfirmationViewController.m in Sources */,
+				8EF3941818A56370004664D5 /* PIRSwitchFieldElementView.m in Sources */,
+				8E8B087A189732400063A2D4 /* PIRHTTPSessionManager2.m in Sources */,
+				8EFB701E18A2970200ADA7B0 /* PIRWebServices.m in Sources */,
+				8ED120B0187B6ADC0033A070 /* PIRSocialAccount+Extensions.m in Sources */,
+				8E90CD8918C5AB3C00554022 /* PIRCreditApplicationResultsViewController.m in Sources */,
+				8E4D59721863B39D0084A2BB /* PIRUserServices.m in Sources */,
+				8E2355D6189FEFD300825E25 /* PIRLoginView.m in Sources */,
+				8E0CF1FE185C242A0069111F /* PIRSendPaymentsAmountsViewController.m in Sources */,
+				8EF8307A18771A2E0097D0D2 /* PIRBankAccount+Extensions.m in Sources */,
+				8EACC5BB185E680B00847F6E /* MCPeerID+PIRUser.m in Sources */,
+				8E09711718769011004EC930 /* PIRProfileViewController.m in Sources */,
+				8E358C111856853800948ED7 /* main.m in Sources */,
+				8E7DC2FE1873359000ADD848 /* PIRValidatorUtil.m in Sources */,
+				8EB20C48187E0CF300A5135F /* PIRBeaconServices.m in Sources */,
+				8E0CF1F7185C1DD70069111F /* PIRSendPaymentsViewController.m in Sources */,
+				8E3CDE181892C37B002B63C6 /* PIRCreditApplicationViewController.m in Sources */,
+				8E5E4F1D18776F330008192E /* PIRProfileInfoViewController.m in Sources */,
+				8E2355D9189FF44600825E25 /* PIRRegisterView.m in Sources */,
+				8E48505618C313C1002B38B6 /* PIRCreditApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E358C181856853800948ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E04770518B3159C007A0612 /* PIRUserServicesSignInTests.m in Sources */,
+				8E04770418B3159C007A0612 /* PIRTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E358C221856853800948ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E358C001856853800948ED7 /* Pier */;
+			targetProxy = 8E358C211856853800948ED7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E358C0D1856853800948ED7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E358C0E1856853800948ED7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E358C261856853800948ED7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E358C271856853800948ED7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E358C2B1856853800948ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kenny Tang (3ZSQ9FX37R)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E358C2C1856853800948ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E358C2E1856853800948ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FE1B6C689847D2995C63DE /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					armv6,
+					armv7s,
+					armv7,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pier/Pier-Prefix.pch";
+				INFOPLIST_FILE = "Pier/Pier-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E358C2F1856853800948ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FE1B6C689847D2995C63DE /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					armv6,
+					armv7s,
+					armv7,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pier/Pier-Prefix.pch";
+				INFOPLIST_FILE = "Pier/Pier-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8E358C311856853800948ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FE1B6C689847D2995C63DE /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pier.app/Pier";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pier/Pier-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PierTests/PierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8E358C321856853800948ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FE1B6C689847D2995C63DE /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pier.app/Pier";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pier/Pier-Prefix.pch";
+				INFOPLIST_FILE = "PierTests/PierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E358BFC1856853800948ED7 /* Build configuration list for PBXProject "Pier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E358C2B1856853800948ED7 /* Debug */,
+				8E358C2C1856853800948ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E358C2D1856853800948ED7 /* Build configuration list for PBXNativeTarget "Pier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E358C2E1856853800948ED7 /* Debug */,
+				8E358C2F1856853800948ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E358C301856853800948ED7 /* Build configuration list for PBXNativeTarget "PierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E358C311856853800948ED7 /* Debug */,
+				8E358C321856853800948ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E4D596418637B010084A2BB /* PierModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E4D596518637B010084A2BB /* PierModel.xcdatamodel */,
+			);
+			currentVersion = 8E4D596518637B010084A2BB /* PierModel.xcdatamodel */;
+			name = PierModel.xcdatamodeld;
+			path = Models/PierModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E358BF91856853800948ED7 /* Project object */;
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PIRAccessTokens" representedClassName="PIRAccessTokens" syncable="YES">
+        <attribute name="accessToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accessTokenExpiration" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PIRUser" inverseName="accessTokens" inverseEntity="PIRUser" syncable="YES"/>
+    </entity>
+    <entity name="PIRBankAccount" representedClassName="PIRBankAccount" syncable="YES">
+        <attribute name="accountID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accountNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accountType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="bankName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isVerified" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="pendingVerificationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="routingNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PIRUser" inverseName="accounts" inverseEntity="PIRUser" syncable="YES"/>
+    </entity>
+    <entity name="PIRCreditApplication" representedClassName="PIRCreditApplication" syncable="YES">
+        <attribute name="qualifiedAmount" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="requestedAmount" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="result" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PIRUser" inverseName="creditApplication" inverseEntity="PIRUser" syncable="YES"/>
+    </entity>
+    <entity name="PIRDeviceTokens" representedClassName="PIRDeviceTokens" syncable="YES">
+        <attribute name="deviceToken" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PIRUser" inverseName="deviceTokens" inverseEntity="PIRUser" syncable="YES"/>
+    </entity>
+    <entity name="PIRPushNotificationTokens" representedClassName="PIRPushNotificationTokens" syncable="YES">
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PIRUser" inverseName="pushNotificationTokens" inverseEntity="PIRUser" syncable="YES"/>
+    </entity>
+    <entity name="PIRSocialAccount" representedClassName="PIRSocialAccount" syncable="YES">
+        <attribute name="accountData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PIRUser" inverseName="socialAccounts" inverseEntity="PIRUser" syncable="YES"/>
+    </entity>
+    <entity name="PIRTransaction" representedClassName="PIRTransaction" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requestType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="scheduledDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transactionID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="fromUser" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PIRUser" inverseName="receivedTransactions" inverseEntity="PIRUser" syncable="YES"/>
+        <relationship name="toUser" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PIRUser" inverseName="sentTransactions" inverseEntity="PIRUser" syncable="YES"/>
+    </entity>
+    <entity name="PIRUser" representedClassName="PIRUser" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isMe" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="passCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pierID" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="prefix" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ssn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" attributeType="String" syncable="YES"/>
+        <attribute name="visibilityOptions" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="zipCode" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="accessTokens" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PIRAccessTokens" inverseName="user" inverseEntity="PIRAccessTokens" syncable="YES"/>
+        <relationship name="accounts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PIRBankAccount" inverseName="user" inverseEntity="PIRBankAccount" syncable="YES"/>
+        <relationship name="creditApplication" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PIRCreditApplication" inverseName="user" inverseEntity="PIRCreditApplication" syncable="YES"/>
+        <relationship name="deviceTokens" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PIRDeviceTokens" inverseName="user" inverseEntity="PIRDeviceTokens" syncable="YES"/>
+        <relationship name="pushNotificationTokens" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PIRPushNotificationTokens" inverseName="user" inverseEntity="PIRPushNotificationTokens" syncable="YES"/>
+        <relationship name="receivedTransactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PIRTransaction" inverseName="fromUser" inverseEntity="PIRTransaction" syncable="YES"/>
+        <relationship name="sentTransactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PIRTransaction" inverseName="toUser" inverseEntity="PIRTransaction" syncable="YES"/>
+        <relationship name="socialAccounts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PIRSocialAccount" inverseName="user" inverseEntity="PIRSocialAccount" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PIRAccessTokens" positionX="-3467" positionY="-153" width="128" height="90"/>
+        <element name="PIRBankAccount" positionX="-3627" positionY="-3" width="128" height="210"/>
+        <element name="PIRCreditApplication" positionX="-3789" positionY="-42" width="128" height="105"/>
+        <element name="PIRDeviceTokens" positionX="-3287" positionY="-66" width="128" height="75"/>
+        <element name="PIRPushNotificationTokens" positionX="-3278" positionY="-210" width="128" height="75"/>
+        <element name="PIRSocialAccount" positionX="-3681" positionY="-216" width="128" height="120"/>
+        <element name="PIRTransaction" positionX="-3458" positionY="57" width="128" height="208"/>
+        <element name="PIRUser" positionX="-4005" positionY="-189" width="128" height="418"/>
+    </elements>
+</model>

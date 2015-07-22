@@ -1,0 +1,23 @@
+platform :ios, '7.0'
+
+link_with 'Pier','PierTests'
+
+# external
+pod 'MagicalRecord/Shorthand', '~> 2.2', :inhibit_warnings => true
+pod 'UIImageEffects'
+pod 'Reveal-iOS-SDK'
+pod 'AFNetworking', '~> 2.0.0'
+pod 'ABContactHelper', :inhibit_warnings => true
+pod 'NSData+Base64', '~>1.0.0'
+pod 'MRProgress'
+pod 'UrbanAirship-iOS-SDK', :inhibit_warnings => true
+pod 'FMDB', '~>2.1'
+pod 'OCMock', '~>2.2.3'
+
+post_install do |installer_representation|
+  installer_representation.project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['ARCHS'] = 'armv7 armv7s'
+    end
+  end
+end
